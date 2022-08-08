@@ -10,11 +10,11 @@ public class hotelbookingpractice1 {
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\ADMIN\\eclipse-workspace\\Selenium practice\\driver\\chromedriver.exe");
+				"C:\\Users\\ADMIN\\eclipse-workspace\\Selenium practice\\chromedriver1\\chromedriver.exe");
 		
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver =new ChromeDriver();
 		
-		driver.get("https://adactinhotelapp.com/");
+		driver.get("https://adactinhotelapp.com/SearchHotel.php");
 		driver.manage().window().maximize();
 		
 		Thread.sleep(2000);
